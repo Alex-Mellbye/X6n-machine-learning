@@ -11,7 +11,7 @@ import sklearn as skl
 import matplotlib.pyplot as plt 
 import seaborn as sns 
 
-df1=pd.read_sas(r"N:\durable\alexmell\dsh20_somall_alex.sas7bdat", format = 'sas7bdat', encoding="latin-1")
+df1=pd.read_sas(r"******, format = 'sas7bdat', encoding="latin-1")
 
 
 #################### Now I start managing variables, recoding values, making dummies, and removing some missing data 
