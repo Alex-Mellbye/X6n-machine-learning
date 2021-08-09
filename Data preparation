@@ -1,6 +1,5 @@
 
 # In this document I prepare the dataset for machine learning analysis.
-# 
 
 
 
@@ -54,7 +53,8 @@ def f(row):                                                              # Here 
 df1['dsh_yes'] = df1.apply(f, axis=1)
 
 
-###################### With the initial dataset prepared I take the next step and start removing other variables that are not of interest 
+
+#################### With the initial dataset prepared I take the next step and start removing other variables that are not of interest 
 
 
 df2 = df1
@@ -71,8 +71,8 @@ df2["index_var2"] = df1["index_var"]
 
 
 
-################################ Lastly I prepare the final dataset that is to be used for analysis. This consists of specifically selecting     
-################################ the variables that make up sh_ttgroup (dsh_yes) and preparing df6 with the variable dsh_yes for later matching                            
+#################### Lastly I prepare the final dataset that is to be used for analysis. This consists of specifically selecting     
+#################### the variables that make up sh_ttgroup (dsh_yes) and preparing df6 with the variable dsh_yes for later matching                            
 
 
 df3 = df2 
