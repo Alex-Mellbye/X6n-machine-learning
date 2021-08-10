@@ -1,7 +1,6 @@
+# In this script I am initializing the model and comparing the results against a left-out test dataset
 
 
-
-from sklearn.model_selection import train_test_split 
 from sklearn.metrics import precision_score, recall_score
 from sklearn.metrics import roc_auc_score 
 from sklearn.metrics import f1_score
@@ -12,8 +11,6 @@ from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import cross_validate
 from numpy import mean
 
-import xgboost as xgb
-from xgboost import XGBClassifier
 
 
 ############################################ Applying tra_test_split and then initiating the model ##############################
