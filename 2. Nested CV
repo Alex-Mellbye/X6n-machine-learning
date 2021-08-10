@@ -51,12 +51,7 @@ print(pd.DataFrame(results))
 
 
 
-
-
-# .best_params_ linjen gir meg det beste parameteret for f1 og average_precision. Svaret her var scale_pos=8 som er hvorfor 
-# jeg bruker det i modellen.
-
-
+# The best_params_ line gives me the best hyperparameters for the model's recall metric
 
 gcv.fit(X_train, y_train)
 gcv.best_params_
