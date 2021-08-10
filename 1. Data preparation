@@ -1,7 +1,6 @@
 
 # In this document I prepare the dataset for machine learning analysis
 
-
 import gc 
 import re 
 import pandas as pd
