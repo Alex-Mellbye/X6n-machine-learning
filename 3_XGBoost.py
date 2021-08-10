@@ -11,7 +11,6 @@ from sklearn.model_selection import cross_val_score
 from numpy import mean
 
 
-
 ############################################ Applying tra_test_split and then initiating the model ##############################
 
 
