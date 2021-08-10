@@ -50,7 +50,6 @@ results = cross_validate(gcv, X_train, y_train, scoring=outer_metrics, cv=outer_
 print(pd.DataFrame(results))
 
 
-
 # The best_params_ line gives me the best hyperparameters for the model's recall metric
 
 gcv.fit(X_train, y_train)
