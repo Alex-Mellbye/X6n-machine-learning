@@ -50,7 +50,7 @@ def f(row):                                                              # Here 
 
 df1['dsh_yes'] = df1.apply(f, axis=1)
 
-
+ 
 
 #################### With the initial dataset prepared I take the next step and start removing other variables that are not of interest 
 
