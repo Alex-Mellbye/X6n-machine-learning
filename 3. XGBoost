@@ -8,7 +8,6 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import precision_recall_curve
 from sklearn.model_selection import StratifiedKFold
 from sklearn.model_selection import cross_val_score
-from sklearn.model_selection import cross_validate
 from numpy import mean
 
 
