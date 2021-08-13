@@ -28,7 +28,7 @@ n_jobs_2 = 3
 
 params = dict(xgbclassifier__scale_pos_weight=[1, 8, 10, 25, 50, 75, 99, 100],
               xgbclassifier__n_estimators=[10, 50, 100, 500],
-              xgbclassifier__max_depth=[10, 50, 100, 500])
+              xgbclassifier__max_depth=[1, 3, 5, 10])
 
 
 clf = make_pipeline(
